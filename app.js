@@ -35,7 +35,11 @@ App({
         }
       }
     })
+    wx.setEnableDebug({
+      enableDebug: true
+    })
   },
+ 
   globalData: {
     userInfo: null
   }

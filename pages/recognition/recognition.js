@@ -74,7 +74,7 @@ Page({
     searchPhotp: function(imageBase64) {
       let that = this;
       wx.request({
-        url: 'http://47.96.163.82/api/ar-demo;', 
+        url: 'https://wugude.cn/api/ar-demo;', 
         data: {
           img: imageBase64
         },
